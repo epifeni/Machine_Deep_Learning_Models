@@ -2,6 +2,7 @@
 ## Continuous Probability Distributions - Probability Density Functions
 ### **Normal Distirbution** - Most relevant to business decissions
  * *If a population approximate a standard normal distribution, then we can make some powerful inferences about it once we know its Mean and Standard Deviation - Using a Z-table*
+ * Population Standard Deviation describes what you already know - How wodely individual values stray from the population mean
     * Bell Curve or Gaussian Dristibution
     * All Normal curves:
      * Is symmetrical about the mean
@@ -35,6 +36,9 @@
          * **Survivorship Bias** - If a population moves over time, it may be due to lessor members leaving the population due to death, expulsion, erlocation etc.
 * Parameter - charisteristic of a population
 * Statistic - is a characteristic of a sample
+
+*From a **Population** of voters, we can gather a **Sample**. We calculate a **Statistic** from the sample that lets us estimate a **Parameter** of the population.*
+
 * Apply **Statistical Inference** to the **Sample** in an attempt to describe the population
 * Variable - a charisteristic that describes a member of the sample
      * Discrete - gender, birthplace
@@ -51,6 +55,24 @@
 ## Central Limit Theorem
 * 95% of all sample means shold fall within 2 Standard Deviations of the population mean even if the population itself is not normally distributed
 <img width="927" height="420" alt="image" src="https://github.com/user-attachments/assets/d22afed3-27c1-44a7-8e13-6ddf5f15b562" />
+
+# Standard Error  
+Describes how far a **sample mean** stray from the **population mean**  
+Takes both the sample and population into consideration
+* N = # of population members
+* n = # of sample members
+* P = population parameter
+* p-hat = sample statistic
+* Sigma = population standard deviation
+* SE_sub_p-hat = standard error of the sample
+
+We can say that with a 95% **confidence level** that the **populaiton parameter** lies within a **confidence interval** of plus-or-minus 2 **Standard Errors** of the **sample statistic**
+* Standard Error describes how a sample statistic varies from the population parameter. It **does not** describe how individual values deviate within the statistic (this would just be the standard deviation of the sample)
+* We can say that the sample statistic (p-hat) is a **point estimator** of the population parameter P
+<img width="757" height="429" alt="image" src="https://github.com/user-attachments/assets/8787fa23-0b98-4612-8e21-ef8958225be2" />
+
+# Hypothesis Testing
+
 
 # Machine Learning/Deep Learning Model Notes  
 
