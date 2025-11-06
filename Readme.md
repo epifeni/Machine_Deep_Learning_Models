@@ -110,19 +110,49 @@ The application of statistical methods to real-world questions
 <img width="509" height="161" alt="image" src="https://github.com/user-attachments/assets/5eb77b53-157f-4094-b084-0ae4cab403fb" />
 
 ## 2 Ways of Performing Hypothesis Tests  
-**Traditional Test**
+### Traditional Test
 1. Take the level of significance (alpha)  
 2. Use it to determine the critical value  
 3. Compare the test statistic to the critical value
 
-**P-value Test**
+### Traditional Test Setup
+1. State the null hypothesis
+2. State the alternative hypothesis
+3. Set a level of significance (alpha)
+4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)\
+<img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" />
+5. Calculate the test statistic (using the Z formula)\
+<img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" />
+6. Calculate Critical Value
+   * Do a z-table lookup of the alpha value to get the z value
+7. Check if the value Rejects or Fail to Reject the null hypothesis
+
+### P-value Test
 1. Take the test statistic (Z-value)
 2. Use it to determine the P-value
 3. Compare the P-value to the level of significance (alpha)
 
+### Traditional Test Setup
+1. State the null hypothesis
+2. State the alternative hypothesis
+3. Set a level of significance (alpha)
+4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)\
+<img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" />
+5. Calculate the test statistic (using the Z formula)\
+<img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" />
+6. P-Value
+   * z-table lookup to get the p value
+7. Check if the value Rejects or Fail to Reject the null hypothesis
+
 **"If the P-value is low, the null must go!"* --> Reject null hypothesis
 **"If the P-value is high, the null must fly!"* --> Fail to reject null hypothesis  
 
+# Type 1 and Type 2 Errors
+Used when you already know the truth that you are testing for wher you already know if the null hypothesis is TRUE or FALSE\
+* Type 1 Error (Fasle Positive) - **Rejecting** a null hypothesis that should have been supported
+    * Null hypothesis was that there was no fire. There was actually no fire but you pulled the fire alarm anyway
+* Type 2 Error (False Negative) - **Failing to Reject** reject a null hypothesis that should have been rejected
+    * Null hypothesis was that there was no fire. So you fail to pull the fire alarm when there was actually a fire 
 
 
 
