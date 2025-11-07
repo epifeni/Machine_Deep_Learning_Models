@@ -1,6 +1,4 @@
-<img width="590" height="406" alt="image" src="https://github.com/user-attachments/assets/93da9508-6516-4d1c-b5e9-a8b2f41789fe" /><br>
-
-# Linear Regression
+# Regression
 
 Referece: [An Introduction to Statistical Learning](https://www.stat.berkeley.edu/~rabbee/s154/ISLR_First_Printing.pdf)<br>  
 * Linear Regression - Chapters 1 and 2
