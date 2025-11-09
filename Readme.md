@@ -349,8 +349,10 @@ The learning process for a network
 1. Using input x, set the activation function a for the input layer
 * z = wx+b
 * a=$\theta$(z)
-2. This resulting a then feeds into the next layer (and so on)
-
+* This resulting a then feeds into the next layer (and so on)
+2. for each layer we are computing the z and a:
+  * z^L^ = w^l^a^L-1^+b^l^
+  * a^l = $\theta$(z^L^)
 
 
 
